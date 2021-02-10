@@ -120,5 +120,8 @@
       }
     }
   },
-  "defaultProject": "azure-maps-lazy-loaded"
+  "defaultProject": "azure-maps-lazy-loaded",
+  "cli": {
+    "analytics": false
+  }
 }

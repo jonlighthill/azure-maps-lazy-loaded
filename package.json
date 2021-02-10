@@ -7,7 +7,8 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "postinstall": "ngcc"
   },
   "private": true,
   "dependencies": {
@@ -19,6 +20,10 @@
     "@angular/platform-browser": "~11.0.9",
     "@angular/platform-browser-dynamic": "~11.0.9",
     "@angular/router": "~11.0.9",
+    "azure-maps-control": "^2.0.31",
+    "azure-maps-drawing-tools": "^0.1.6",
+    "azure-maps-rest": "^2.0.5",
+    "ng-azure-maps": "^3.0.0",
     "rxjs": "~6.6.0",
     "tslib": "^2.0.0",
     "zone.js": "~0.10.2"
